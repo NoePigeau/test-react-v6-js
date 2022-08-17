@@ -1,0 +1,13 @@
+@import "styles/mixins.scss";
+
+.card {
+    padding: 24px;
+    border-radius: 10px;
+    max-width: 210px;
+    cursor: pointer;
+    @include shadow;
+
+    .right {
+        text-align: right;
+    }
+}

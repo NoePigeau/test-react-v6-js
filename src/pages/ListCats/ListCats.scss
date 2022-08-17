@@ -1,0 +1,11 @@
+.container {
+    & > h1 {
+        margin: 40px 0;
+    }
+}
+
+.list-cat {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
